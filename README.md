@@ -16,7 +16,6 @@ This project helps identify misleading or false news articles using:
 - TF-IDF vectorization
 - Logistic Regression classification
 
-The model achieves **~95% accuracy**, making it both reliable and interview-ready.
 
 ---
 
@@ -28,6 +27,7 @@ Fake news detection using NLP/
 - requirements.txt
 - model/
     - fake_news_model.pkl
+    - tfidf_vectorizer.pkl
 
 ---
 
@@ -145,4 +145,5 @@ Prediction: FAKE
 - Implement lemmatization
 - Add confidence score for predictions
 - Build a Streamlit web application
+
 - Extend to deep learning models (LSTM / BERT)
