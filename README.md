@@ -28,7 +28,6 @@ Fake news detection using NLP/
 - requirements.txt
 - model/
     - fake_news_model.pkl
-    - tfidf_vectorizer.pkl
 
 ---
 
